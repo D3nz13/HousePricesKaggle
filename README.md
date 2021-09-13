@@ -48,6 +48,6 @@ It contains the data about houses in Ames, Iowa. It contains 79 explanatory vari
 SVR turned out to be the best estimator. It got 0.353 average error during the cross-validation.  
 
 ## Final thoughts
-- Using IterativeImputer instead of a SimpleImputer could improve the score  
+- Using IterativeImputer instead of SimpleImputer could improve the score  
 - More advanced feature engineering could improve the score  
 - Possibly using ANN or XGBoost could lead to better results  
