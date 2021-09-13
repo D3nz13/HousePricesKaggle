@@ -1,6 +1,7 @@
 # HousePricesKaggle
 ## Table of contents
 * [Description of the problem](#description-of-the-problem)
+* [Used libraries](#used-libraries)
 * [Approach](#my-approach)
 * [Selected graphs](#selected-graphs)
 * [Model evaluation](#model-evaluation)
@@ -9,6 +10,13 @@
 ## Description of the problem
 The dataset has been downloaded from kaggle ([here](https://www.kaggle.com/c/house-prices-advanced-regression-techniques))  
 It contains the data about houses in Ames, Iowa. It contains 79 explanatory variables and an independent, continuous variable (the sale price).  
+
+## Used libraries
+- ```pandas==1.2.3```
+- ```numpy==1.19.5```
+- ```matplotlib==3.4.1```
+- ```seaborn==0.11.1```
+- ```scikit-learn==0.24.1```
 
 ## My approach
 - EDA
@@ -42,4 +50,4 @@ SVR turned out to be the best estimator. It got 0.353 average error during the c
 ## Final thoughts
 - Using IterativeImputer instead of a SimpleImputer could improve the score  
 - More advanced feature engineering could improve the score  
-- Possibly using ANN could lead to better results  
+- Possibly using ANN or XGBoost could lead to better results  
