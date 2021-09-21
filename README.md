@@ -31,18 +31,18 @@ It contains the data about houses in Ames, Iowa. It contains 79 explanatory vari
 - Making predictions
 
 ## Selected graphs
-<center> Correlation matrix </center>  
+- Correlation matrix
 
-[![Correlation matrix](/graphs/correlation_matrix.png)]  
-<center> Numerical features with high correlation with the output variable </center>  
+![Correlation matrix](/graphs/correlation_matrix.png)   
+- Numerical features with high correlation with the output variable
 
-[![High correlation](/graphs/high_correlation.png)]  
-<center> Relationship between ordinal variables and the output variable </center>  
+![High correlation](/graphs/high_correlation.png)  
+- Relationship between ordinal variables and the output variable  
 
-[![Ordinal relationship](/graphs/ordinal_relationship.png)]
-<center> Nominal features importances </center>  
+![Ordinal relationship](/graphs/ordinal_relationship.png)  
+- Nominal features importances
 
-[![Importances](/graphs/importances.png)]  
+![Importances](/graphs/importances.png)  
 
 ## Model evaluation
 SVR turned out to be the best estimator. It got 0.353 average error during the cross-validation.  
